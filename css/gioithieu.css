@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header a:hover{
+    color: #5F9EA0;
+    transition: 0.3s;
+}
+.header {
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.header a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.header li{
+    margin-right: 50px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-right: 40px;
+}
+.icon1{
+    padding: 15px;
+}
+ul.timkiem li{
+    margin-right: 0;
+}
+.icon2{
+    padding: 15px;
+}
+.icon3{
+    padding: 15px;
+}
+.mainmenu ul.submenu{
+    position: absolute;
+    background: #FFF;
+    text-decoration: none;
+    padding: 20px;
+    display:list-item;
+    line-height: 35px;
+    display: none;
+    box-shadow: 1px 1px 1px;
+    -moz-box-shadow: 5px 5px 5px;
+    -webkit-box-shadow: 5px 5px 5px;
+    -o-box-shadow: 5px 5px 5px ;
+    -ms-box-shadow: 5px 5px 5px;
+}
+.mainmenu ul.submenu a{
+    border-bottom: 1px solid #FFF;
+    font-size: 18px;
+}
+.mainmenu li:hover ul.submenu{
+    display: block;
+}
+.intro{
+    display: flex;
+}
+.footer{
+    width: auto;
+    padding: 50px;
+    display: flex;
+    background-color: black;
+    color: #FFF;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.about{
+    width: 41%;
+    margin-right: 190px;
+    border-right: 1px solid #FFF;
+}
+.htch{
+    padding-top: 15px;
+    border-top: 1px solid #fff;
+}
+.links{
+    margin-right: 130px;
+}
+.list{
+    padding-top: 30px ;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: #FFf;
+}
+.list a:hover{
+    color: #5F9EA0;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.web{
+    padding-top: 30px;
+    list-style: none;
+}    
+.web a{
+    text-decoration: none;
+    color: #FFF;
+}
+.web a:hover{
+    color: #5F9EA0;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+.main{
+    padding-top: 50px;
+    padding-right: 210px;
+    padding-left: 210px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.box1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+#search-box {
+    background-color: rgb(224, 223, 223);
+    padding: 4px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+#search-box #search-text{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 8px;
+}
+#search-btn{
+    background: #FFF;
+    border: none;
+}
+.box2{
+    padding: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.box2 ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    color: black;
+}
+.box2 a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.box2 a:hover{
+    color: #5F9EA0;
+    transition: 0.3s;
+}
+.box3{
+    max-width: 1170px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.15;
+    color: black;
+}
+.mainshop{
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tcsp{
+    font-size: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.logo {
+    margin-left: 600px;
+    margin-right: 602px;
+     
+}
+.gioithieu{
+    font-size: 25px;
+    line-height: 35px;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.gt1{
+    text-align: center;
+    margin-bottom: 13px;
+}
+.gt3{
+    text-align: center;
+    margin-top: 13px;
+}
+.chinhsach{
+    padding-bottom: 50px;
+}
+.chinhsach h2 {
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.chinhsach h1 {
+    font-size: 23px;
+    padding: 20px;
+    color: #5F9EA0;
+    text-decoration: underline;
+}
+.chinhsach p{
+    line-height: 30px;
+    font-size: 18px;
+}
